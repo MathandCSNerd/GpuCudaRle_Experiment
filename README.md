@@ -2,7 +2,7 @@
 
 This is experimental CUDA software I wrote for the purposes of run-length-encoding data on a gpu.
 
-The primary purpose of this software was to compress multi-gigabyte (and sometime multi-terabyte) data I had which was also had very long runs of the same digit. Most importantly the impact on the cpu had to be minimal because
+The primary purpose of this software was to compress multi-gigabyte (and sometimes multi-terabyte) data I had which was also had very long runs of the same digit. Most importantly the impact on the cpu had to be minimal because
 
 I had originally planned to add some other types of compression (gzip for example), but I've decided to transition that code to OpenCL and abandon this project.
 
